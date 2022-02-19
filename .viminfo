@@ -15,9 +15,11 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1645227521,,"wq"
+|2,0,1645229032,,"wq"
+:qa
+|2,0,1645228932,,"qa"
 :q
-|2,0,1645084874,,"q"
+|2,0,1645228926,,"q"
 :Wq
 |2,0,1643944240,,"Wq"
 
@@ -33,66 +35,111 @@ $
 
 # Registers:
 ""1	LINE	0
-	!.vim_runtime
-|3,1,1,1,1,0,1645225282,"!.vim_runtime"
+	!.viminfo
+|3,1,1,1,1,0,1645228991,"!.viminfo"
 "2	LINE	0
-	yarn-error.log
-|3,0,2,1,1,0,1639538010,"yarn-error.log"
+	!.vim_runtime
+|3,0,2,1,1,0,1645225282,"!.vim_runtime"
 "3	LINE	0
-	.vs/
-|3,0,3,1,1,0,1638062070,".vs/"
+	yarn-error.log
+|3,0,3,1,1,0,1639538010,"yarn-error.log"
 "4	LINE	0
-	Complete/
-|3,0,4,1,1,0,1638062069,"Complete/"
+	.vs/
+|3,0,4,1,1,0,1638062070,".vs/"
 "5	LINE	0
-	backup/
-|3,0,5,1,1,0,1638062069,"backup/"
+	Complete/
+|3,0,5,1,1,0,1638062069,"Complete/"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1638062069,""
+	backup/
+|3,0,6,1,1,0,1638062069,"backup/"
 "7	LINE	0
-	*.nuget.targets
-|3,0,7,1,1,0,1638062069,"*.nuget.targets"
+	
+|3,0,7,1,1,0,1638062069,""
 "8	LINE	0
-	*.nuget.props
-|3,0,8,1,1,0,1638062069,"*.nuget.props"
+	*.nuget.targets
+|3,0,8,1,1,0,1638062069,"*.nuget.targets"
 "9	LINE	0
-	# NuGet v3's project.json files produces more ignoreable files
-|3,0,9,1,1,0,1638062069,"# NuGet v3's project.json files produces more ignoreable files"
+	*.nuget.props
+|3,0,9,1,1,0,1638062069,"*.nuget.props"
+"q	CHAR	0
+	:q€kbwq::€kbq
+|3,0,26,0,1,0,1645228927,":q€kbwq::€kbq"
 
 # File marks:
-'0  5  8  ~/.gitignore
-|4,48,5,8,1645227521,"~/.gitignore"
-'1  11  0  ~/.gitignore
-|4,49,11,0,1645225284,"~/.gitignore"
-'2  10  0  ~/.gitignore
-|4,50,10,0,1645225284,"~/.gitignore"
-'3  12  0  ~/.gitignore
-|4,51,12,0,1645225209,"~/.gitignore"
-'4  11  0  ~/.gitignore
-|4,52,11,0,1645225209,"~/.gitignore"
-'5  13  0  ~/.gitignore
-|4,53,13,0,1645225107,"~/.gitignore"
-'6  13  0  ~/.gitignore
-|4,54,13,0,1645225107,"~/.gitignore"
-'7  14  0  ~/.gitignore
-|4,55,14,0,1645225107,"~/.gitignore"
-'8  14  0  ~/.gitignore
-|4,56,14,0,1645225107,"~/.gitignore"
-'9  12  0  ~/.gitignore
-|4,57,12,0,1645225107,"~/.gitignore"
+'0  12  6  ~/.gitignore
+|4,48,12,6,1645229032,"~/.gitignore"
+'1  7  8  ~/.gitignore
+|4,49,7,8,1645229003,"~/.gitignore"
+'2  7  8  ~/.gitignore
+|4,50,7,8,1645229003,"~/.gitignore"
+'3  5  8  ~/.gitignore
+|4,51,5,8,1645227521,"~/.gitignore"
+'4  5  8  ~/.gitignore
+|4,52,5,8,1645227521,"~/.gitignore"
+'5  5  8  ~/.gitignore
+|4,53,5,8,1645227521,"~/.gitignore"
+'6  5  8  ~/.gitignore
+|4,54,5,8,1645227521,"~/.gitignore"
+'7  11  0  ~/.gitignore
+|4,55,11,0,1645225284,"~/.gitignore"
+'8  11  0  ~/.gitignore
+|4,56,11,0,1645225284,"~/.gitignore"
+'9  10  0  ~/.gitignore
+|4,57,10,0,1645225284,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  12  6  ~/.gitignore
+|4,39,12,6,1645229032,"~/.gitignore"
+-'  7  0  ~/.gitignore
+|4,39,7,0,1645229023,"~/.gitignore"
+-'  7  8  ~/.gitignore
+|4,39,7,8,1645229003,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1645228989,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1645228989,"~/.gitignore"
+-'  5  8  ~/.gitignore
+|4,39,5,8,1645227521,"~/.gitignore"
 -'  5  8  ~/.gitignore
 |4,39,5,8,1645227521,"~/.gitignore"
 -'  11  0  ~/.gitignore
 |4,39,11,0,1645227512,"~/.gitignore"
+-'  12  0  ~/.gitignore
+|4,39,12,0,1645227512,"~/.gitignore"
+-'  11  0  ~/.gitignore
+|4,39,11,0,1645227512,"~/.gitignore"
+-'  11  0  ~/.gitignore
+|4,39,11,0,1645227512,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1645225284,"~/.gitignore"
+-'  11  0  ~/.gitignore
+|4,39,11,0,1645225284,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1645225284,"~/.gitignore"
 -'  10  0  ~/.gitignore
 |4,39,10,0,1645225284,"~/.gitignore"
 -'  12  0  ~/.gitignore
 |4,39,12,0,1645225209,"~/.gitignore"
 -'  11  0  ~/.gitignore
 |4,39,11,0,1645225209,"~/.gitignore"
+-'  12  0  ~/.gitignore
+|4,39,12,0,1645225209,"~/.gitignore"
+-'  11  0  ~/.gitignore
+|4,39,11,0,1645225209,"~/.gitignore"
+-'  13  0  ~/.gitignore
+|4,39,13,0,1645225190,"~/.gitignore"
+-'  13  0  ~/.gitignore
+|4,39,13,0,1645225190,"~/.gitignore"
+-'  14  0  ~/.gitignore
+|4,39,14,0,1645225190,"~/.gitignore"
+-'  13  0  ~/.gitignore
+|4,39,13,0,1645225190,"~/.gitignore"
+-'  14  0  ~/.gitignore
+|4,39,14,0,1645225190,"~/.gitignore"
+-'  12  0  ~/.gitignore
+|4,39,12,0,1645225190,"~/.gitignore"
+-'  13  0  ~/.gitignore
+|4,39,13,0,1645225190,"~/.gitignore"
 -'  13  0  ~/.gitignore
 |4,39,13,0,1645225190,"~/.gitignore"
 -'  14  0  ~/.gitignore
@@ -103,6 +150,20 @@ $
 |4,39,13,0,1645225190,"~/.gitignore"
 -'  13  0  ~/.gitignore
 |4,39,13,0,1645225107,"~/.gitignore"
+-'  13  0  ~/.gitignore
+|4,39,13,0,1645225107,"~/.gitignore"
+-'  1  67  ~/.gitignore
+|4,39,1,67,1645225020,"~/.gitignore"
+-'  1  67  ~/.gitignore
+|4,39,1,67,1645225020,"~/.gitignore"
+-'  1  67  ~/.gitignore
+|4,39,1,67,1645225020,"~/.gitignore"
+-'  1  67  ~/.gitignore
+|4,39,1,67,1645225020,"~/.gitignore"
+-'  1  67  ~/.gitignore
+|4,39,1,67,1645225020,"~/.gitignore"
+-'  1  67  ~/.gitignore
+|4,39,1,67,1645225020,"~/.gitignore"
 -'  1  67  ~/.gitignore
 |4,39,1,67,1645225020,"~/.gitignore"
 -'  1  67  ~/.gitignore
@@ -115,6 +176,12 @@ $
 |4,39,10,0,1645224948,"~/.gitignore"
 -'  10  0  ~/.gitignore
 |4,39,10,0,1645224948,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1645224948,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1645224948,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1645214142,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1645214142,"~/.gitignore"
 -'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
@@ -181,129 +248,68 @@ $
 |4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
 -'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
 |4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
--'  29  31  ~/.aliases
-|4,39,29,31,1644782609,"~/.aliases"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
+-'  1  0  /mnt/d/work/adam/v4/core-service-logging/.gitignore
+|4,39,1,0,1645084874,"/mnt/d/work/adam/v4/core-service-logging/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1645227520	0
-	"	5	8
-	^	5	9
-	.	5	8
+	*	1645229029	0
+	"	12	6
+	^	12	7
+	.	13	0
 	+	1	67
-	+	10	4
+	+	11	4
 	+	12	0
-	+	14	0
+	+	13	0
 	+	5	0
 	+	7	0
-	+	8	0
 	+	9	0
 	+	10	0
 	+	11	0
 	+	12	0
-	+	11	0
 	+	5	8
+	+	12	0
+	+	7	8
+	+	13	0
 
 > /mnt/d/work/adam/v4/core-service-logging/.gitignore
 	*	1645084873	0
