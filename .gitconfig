@@ -29,3 +29,4 @@
     amend = commit --amend --no-edit
     diff-files = "!f() { git diff --name-status \"$1^\" \"$1\"; }; f"
     keep-unchanged = "!f() { git update-index --assume-unchanged \"$1\"; }; f"
+    revert-keep-unchanged = "!f() { git update-index --no-assume-unchanged \"$1\"; }; f"
