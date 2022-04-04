@@ -1,9 +1,30 @@
 [user]
+	name = HamzaFouad
 	email = HamzaMoFouad@gmail.com
-	name = Hamza Fouad
-[merge "npm-merge-driver"]
-	name = automatically merge npm lockfiles
-	driver = npx npm-merge-driver merge %A %O %B %P
 [core]
+	autocrlf = false
+	eol = lf
 	filemode = false
-	autocrlf = true
+    editor = vim
+[diff]
+    tool = vscode-diff
+[difftool]
+    prompt = false
+[difftool "vscode-diff"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode-merge
+[mergetool]
+    keepBackup = false
+[mergetool "vscode-merge"]
+    cmd = code --wait $MERGED
+[alias]
+	st = status
+	ss = st --short
+    stash-all-withoutname = stash --include-untracked
+    stash-all = "!f() { git stash push -m \"$1\" --include-untracked; }; f"
+    egc = config --global -e
+    elc = config --local -e
+    esc = config --system -e
+    amend = commit --amend --no-edit
+    diff-files = "!f() { git diff --name-status \"$1^\" \"$1\"; }; f"
