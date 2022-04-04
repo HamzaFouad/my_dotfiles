@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!.aliases
+!.bash_prompt
+!.bash_profile
+!.bashrc
+!.gitconfig
+!.profile
+!.vimrc
+
