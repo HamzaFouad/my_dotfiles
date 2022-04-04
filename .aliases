@@ -9,8 +9,8 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 alias ll='ls -la'
 # Shortcuts
+alias c="cd /mnt/c"
 alias d="cd /mnt/d"
-alias h="cd /mnt/h"
 
 alias exp='explorer.exe'
 alias explorer='explorer.exe'
@@ -19,14 +19,21 @@ alias windir='cd "/mnt/c/Users/Hamza"'
 alias homedir='cd "/mnt/c/Users/Hamza"'
 alias dl='cd /mnt/c/Users/Hamza/Downloads"'
 alias dt="cd '/mnt/c/Users/Hamza/Desktop"
-alias ydl='cd /mnt/h/youtube-dl'
-alias y-dl='cd /mnt/h/youtube-dl'
-alias youtube='cd /mnt/h/youtube-dl'
-alias yt-dl='cd /mnt/h/youtube-dl'
-alias reddit-clone='cd /mnt/d/Hamza/online_courses/web_development/reddit-clone'
+alias ydl='cd /mnt/d/youtube-dl'
+alias y-dl='cd /mnt/d/youtube-dl'
+alias youtube='cd /mnt/d/youtube-dl'
+alias yt-dl='cd /mnt/d/youtube-dl'
+alias reddit-clone='cd /mnt/c/my_workspace/personal/projects/reddit-clone'
 alias g="git"
-alias edrak='cd /mnt/d/work/edrak'
-alias adam='cd /mnt/d/work/adam'
+
+alias ws="cd /mnt/c/my_workspace"
+alias work="cd /mnt/c/my_workspace/work"
+alias adam='cd /mnt/c/my_workspace/work/adam/v4'
+alias cb="cd /mnt/c/my_workspace/work/adam/v4/core-service-content_base"
+alias ce="cd /mnt/c/my_workspace/work/adam/v4/core-service-content_engagement"
+alias mp="cd /mnt/c/my_workspace/work/adam/v4/core-service-user"
+
+
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias spin_postgres_docker="docker run -p 5432:5432 --name pg -e POSTGRES_HOST_AUTH_METHOD=trust postgres"
 
@@ -36,18 +43,20 @@ alias pip='pip3'
 # alias py='python3.8'
 
 
-alias hamza='cd "/mnt/d/Hamza"'
-alias aws='cd "/mnt/d/Hamza/aws"'
-alias web='cd "/mnt/d/Hamza/online_courses/web_development"'
-alias gp='cd "/mnt/d/Hamza/graduation_project/SMART_HA"'
-alias snippets='cd "/mnt/d/Hamza/snippets"'
-alias cv='cd "/mnt/d/Hamza/cvs"'
-alias cvs='cd "/mnt/d/Hamza/cvs"'
+alias hamza='cd "/mnt/c/my_workspace/personal/Hamza"'
+alias aws='cd "/mnt/c/Hamza/aws"'
+alias web='cd "/mnt/c/Hamza/online_courses/web_development"'
+alias gp='cd "/mnt/c/Hamza/graduation_project/SMART_HA"'
+alias snippets='cd "/mnt/c/my_workspace/personal/snippets"'
+alias cv='cd "/mnt/c/my_workspace/formal_info"'
+alias cvs='cd "/mnt/c/Hamza/cvs"'
 alias subl='/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe'
-alias study='cd "/mnt/d/Hamza/online_courses"'
+alias study='cd "/mnt/c/Hamza/online_courses"'
 alias downloads='cd "/mnt/c/Users/Hamza/Downloads"'
 
 
+# What is my ip address?
+alias my_ipaddress="echo $(ifconfig | grep broadcast | awk '{print $2}')"
 # check if postgres online or not
 alias check-psql="sudo /etc/init.d/postgresql status"
 
