@@ -1,10 +1,10 @@
 [user]
-	name = HamzaFouad
-	email = HamzaMoFouad@gmail.com
+    name = HamzaFouad
+    email = HamzaMoFouad@gmail.com
 [core]
-	autocrlf = false
-	eol = lf
-	filemode = false
+    autocrlf = false
+    eol = lf
+    filemode = false
     editor = vim
 [diff]
     tool = vscode-diff
@@ -19,8 +19,8 @@
 [mergetool "vscode-merge"]
     cmd = code --wait $MERGED
 [alias]
-	st = status
-	ss = st --short
+    st = status
+    ss = st --short
     stash-all-withoutname = stash --include-untracked
     stash-all = "!f() { git stash push -m \"$1\" --include-untracked; }; f"
     egc = config --global -e
