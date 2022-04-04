@@ -35,7 +35,7 @@ export POSTGRESQLPATH=/usr/lib/postgresql/12/bin/:$POSTGRESQLPATH
 # Load pyenv automatically by adding
 # the following to ~/.bashrc:
 
-export PATH="/home/siege/.pyenv/bin:$PATH"
+export PATH="/home/hamza/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
