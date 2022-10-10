@@ -2,10 +2,11 @@
     name = HamzaFouad
     email = HamzaMoFouad@gmail.com
 [core]
-    autocrlf = false
+	autocrlf = input
     eol = lf
-    filemode = false
+	filemode = false
     editor = vim
+	autolf = input
 [diff]
     tool = vscode-diff
 [difftool]
@@ -23,6 +24,7 @@
     ss = st --short
     stash-all-withoutname = stash --include-untracked
     stash-all = "!f() { git stash push -m \"$1\" --include-untracked; }; f"
+    pcb = "!f() { git branch --show-current ; }; f"
     egc = config --global -e
     elc = config --local -e
     esc = config --system -e
@@ -30,3 +32,4 @@
     diff-files = "!f() { git diff --name-status \"$1^\" \"$1\"; }; f"
     keep-unchanged = "!f() { git update-index --assume-unchanged \"$1\"; }; f"
     revert-keep-unchanged = "!f() { git update-index --no-assume-unchanged \"$1\"; }; f"
+	lgb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches # Log graph branches tree

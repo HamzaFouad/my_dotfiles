@@ -33,10 +33,12 @@ alias cb="cd /mnt/c/my_workspace/work/adam/v4/core-service-content_base"
 alias ce="cd /mnt/c/my_workspace/work/adam/v4/core-service-content_engagement"
 alias mp="cd /mnt/c/my_workspace/work/adam/v4/core-service-user"
 
-
+alias adamMongo="mongodb+srv://dbadmin:XK1y2Al654E52APS@cluster0.8o3ab.mongodb.net"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias spin_postgres_docker="docker run -p 5432:5432 --name pg -e POSTGRES_HOST_AUTH_METHOD=trust postgres"
-
+alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
+alias jp-notebook="~/.local/bin/jupyter-notebook --no-browser"
+alias jp-nb="~/.local/bin/jupyter-notebook --no-browser"
 
 alias pip='pip3'
 # alias python='python3.8'
@@ -44,16 +46,15 @@ alias pip='pip3'
 
 
 alias hamza='cd "/mnt/c/my_workspace/personal/Hamza"'
-alias aws='cd "/mnt/c/Hamza/aws"'
 alias web='cd "/mnt/c/Hamza/online_courses/web_development"'
 alias gp='cd "/mnt/c/Hamza/graduation_project/SMART_HA"'
 alias snippets='cd "/mnt/c/my_workspace/personal/snippets"'
 alias cv='cd "/mnt/c/my_workspace/formal_info"'
 alias cvs='cd "/mnt/c/Hamza/cvs"'
 alias subl='/mnt/c/Program\ Files/Sublime\ Text\ 3/subl.exe'
-alias study='cd "/mnt/c/Hamza/online_courses"'
+alias study='cd "/mnt/c/my_workspace/personal/"'
 alias downloads='cd "/mnt/c/Users/Hamza/Downloads"'
-
+alias vscode='/mnt/c/Users/Hamza/AppData/Local/Programs/Microsoft\ VS\ Code/Code.exe .'
 
 # What is my ip address?
 alias my_ipaddress="echo $(ifconfig | grep broadcast | awk '{print $2}')"
