@@ -2,7 +2,7 @@
     name = HamzaFouad
     email = HamzaMoFouad@gmail.com
 [core]
-	autocrlf = input
+	autocrlf = true
     eol = lf
 	filemode = false
     editor = vim
