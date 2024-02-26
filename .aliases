@@ -26,14 +26,18 @@ alias yt-dl='cd /mnt/d/youtube-dl'
 alias reddit-clone='cd /mnt/c/my_workspace/personal/projects/reddit-clone'
 alias g="git"
 
+alias personal="cd /mnt/c/my_workspace/personal"
 alias ws="cd /mnt/c/my_workspace"
 alias work="cd /mnt/c/my_workspace/work"
 alias adam='cd /mnt/c/my_workspace/work/adam/v4'
 alias cb="cd /mnt/c/my_workspace/work/adam/v4/core-service-content_base"
 alias ce="cd /mnt/c/my_workspace/work/adam/v4/core-service-content_engagement"
 alias mp="cd /mnt/c/my_workspace/work/adam/v4/core-service-user"
+alias cloned="cd /mnt/c/my_workspace/personal/cloned"
+alias mongo-adam="mongo mongodb+srv://oAOhtzJGiwnKdiwD:uyyK5qyewlRURZ9Q@cluster0.a7lpjyq.mongodb.net" 
+alias adamMongo="mongo mongodb+srv://oAOhtzJGiwnKdiwD:uyyK5qyewlRURZ9Q@cluster0.a7lpjyq.mongodb.net"
+alias redis-adam="redis-cli -h redis-19402.c8.us-east-1-2.ec2.cloud.redislabs.com -p 19402 -a Dcw8h8sUAa8gY1kAGB5Vdn1PDnxFUB89"
 
-alias adamMongo="mongodb+srv://dbadmin:XK1y2Al654E52APS@cluster0.8o3ab.mongodb.net"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias spin_postgres_docker="docker run -p 5432:5432 --name pg -e POSTGRES_HOST_AUTH_METHOD=trust postgres"
 alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
@@ -58,6 +62,9 @@ alias vscode='/mnt/c/Users/Hamza/AppData/Local/Programs/Microsoft\ VS\ Code/Code
 
 # What is my ip address?
 alias my_ipaddress="echo $(ifconfig | grep broadcast | awk '{print $2}')"
+alias get_ip_address="nslookup"
+alias get_ipaddress="nslookup"
+
 # check if postgres online or not
 alias check-psql="sudo /etc/init.d/postgresql status"
 
